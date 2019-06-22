@@ -45,8 +45,54 @@ main{
 	width: 100%; float: left; padding: 2% 3%;
 	background-color: #fff;
 }
+.banner{
+	width: 100%;
+	padding: 2% 3%;
+	background-image: url("../Img/bg.jpg");
+}
+.banner p{
+	font-size: 3em; color: #fff;
+	text-align: center; margin: 3%;
+}
+.banner button{
+	width: 45%; height: 50px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 1.5em;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+.banner button:hover{
+	background-color: rgba(0,0,0,0.2);
+}
+.cursos{
+	padding: 2% 3%; float: left; margin: 3% 0;
+}
+.cursos h2{
+	color: #48AA43;
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 5%;
+}
+.cursos article{
+	width: 28%; padding: 2%; float: left;
+}
+.news{
+	padding: 2% 3%;
+	float: left;
+	margin: 3% 0;
+}
+.news h2{
+	color: #8CC63E;
+	text-align: center;
+	font-size: 2.2em;
+	margin-bottom: 5%;
+}
 footer{
 	width: 100%; float: left; padding: 2% 3%;
 	background-color: #204000; color: white;
 	text-align: center;
+}
+footer a{
+	color: #DDE11A;
 }
